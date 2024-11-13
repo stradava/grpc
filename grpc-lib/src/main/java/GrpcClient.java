@@ -3,12 +3,12 @@
 import com.example.grpc.HelloRequest;
 import com.example.grpc.HelloResponse;
 import com.example.grpc.HelloServiceGrpc;
-import com.example.grpc.HelloServiceGrpc.HelloServiceBlockingStub;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import lombok.extern.slf4j.Slf4j;
 
+// acts as client
 @Slf4j
 public class GrpcClient {
     public static void main(String[] args) {

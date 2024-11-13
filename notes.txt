@@ -1,0 +1,2 @@
+1. run "mvn clean install" or "mvn package" first to build grpc-lib.
+2. grpc-lib contains .proto file that serves as code generation base.
